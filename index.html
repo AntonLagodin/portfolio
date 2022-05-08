@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Anton Portfolio Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="container">
-            <a href="#" class="header__logo">Portf<span>olio.</span></a>
-            <div class="header__links">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-                </ul>
-                <i class="uil uil-moon toogle-btn"></i>
-            </div>
-        </nav>
+      <nav class="container">
+        <a href="#" class="header__logo">Portf<span>olio.</span></a>
+        <div class="header__links">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+          <i class="uil uil-moon toogle-btn"></i>
+        </div>
+      </nav>
     </header>
-
-<script src="./scripts/script.js"></script>
-</body>
+    <main>
+        <section class="showcase__area">
+            <img src="./images/square1.png" alt="shape square" class="showcase__shape-square">
+            <div class="container">
+                <div class="showcase__info">
+                    <h3 class="showcase__sub-heading">Frontend Developer</h3>
+                    <h1 class="showcase__heading">Anton Lagodin</h1>
+                    <p class="showcase__text">I'm a junior frontend developer. Let's work together.</p>
+                <div class="showcase__buttons">
+                    <a href="mailto:lagodinanton@gmail.com" class="showcase__btn">Contact me</a>
+                    <a href="./images/AntonCV.docx" download class="showcase__btn btn--CV">Download CV</a>
+                </div>
+                </div>
+                <div class="showcase__image">
+                    <img src="./images/person1.png" alt="Anton" class="showcase__image__person">
+                    <img src="./images/circle1.png" alt="shape circle" class="showcase__shape-circle">
+                    <img src="./images/dots.png" alt="shape dots" class="showcase__shape-dots">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>
